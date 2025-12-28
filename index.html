@@ -5,10 +5,139 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    /* .hero .item {
+
+    } */
+    .hero-item {}
+
+    .btn {
+      border-radius: 20px;
+      font-size: 16px;
+      background-color: orangered;
+      color: white;
+      padding: 20px;
+    }
+
+    .work .btn {
+      border-radius: 10px;
+      font-size: 24px;
+    }
+
+    .card-lg {
+      border-radius: 20px;
+      width: 70px;
+      height: 150px;
+      background-image: url();
+      /* margin: 0 30px; */
+    }
+
+    /* .features .card-lg {
+      margin: 0;
+      margin-right: 50px;
+    } */
+    .hero .item {}
+
+    .hero__title {
+      margin: 50px;
+    }
+
+    .tarif {
+      border-radius: 15px;
+      padding: 10px;
+      width: 200px;
+    }
+
+    .rarif_common {
+      background-color: black;
+    }
+
+    .tarif_main {
+      background-color: orangered;
+    }
+
+    .btn--margin-left {
+      margin-left: 50px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Hello world</h1>
+  <!-- <section class="tarifs">
+    <div class="tarif tarif_common"></div>
+    <div class="tarif tarif_main"></div>
+    <div class="tarif tarif_common"></div>
+  </section> -->
+
+  <!-- <section class="features">
+    <div class="tarif tarif_shadow"></div>
+  </section> -->
+
+
+
+  <section class="tarifs">
+    <div class="tarifs__tarif tarifs__tarif_common">1</div>
+    <div class="tarifs__tarif tarifs__tarif_main">2</div>
+    <div class="tarifs__tarif tarifs__tarif_common tarifs__tarif_font-lg">3</div>
+  </section>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-item">
+        <button class="btn btn--size-lg btn--margin-left">Hello</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <button class="btn"></button>
+    <div class="wrapper">
+      <div class="card-md">TEXT</div>
+      <div class="card-lg"></div>
+      <div class="card-md"></div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="card-lg"></div>
+    <div class="card-md"></div>
+
+  </section>
+
+
+  <!-- Верно. Семантически осмысленный блок `error` -->
+  <div class="error"></div>
+
+  <!-- Неверно. Описывается внешний вид -->
+  <div class="red-text"></div>
+
+
+  <!-- Блок `header` -->
+  <header class="header">
+    <!-- Вложенный блок `logo` -->
+    <div class="logo"></div>
+
+    <!-- Вложенный блок `search-form` -->
+    <form class="search-form"></form>
+  </header>
+
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__description">
+        <h1 class="hero__title">
+          Lorem ipsum dolor <span class="hero__span">sit</span>.
+        </h1>
+        <p class="text">Lorem ipsum dolor sit amet consectetur.</p>
+        <button class="btn"></button>
+      </div>
+
+      <img class="hero__image" src="" alt="">
+    </div>
+  </section>
+
+
+
 </body>
 
 </html>
